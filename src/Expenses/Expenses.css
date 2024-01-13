@@ -1,0 +1,69 @@
+.expenses-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.expenses-page > div {
+  width: 70%;
+  height: 900px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: #f0f3fa;
+}
+
+.expense-duration {
+  max-width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  color: #628ecb;
+  font-size: large;
+  font-weight: bold;
+}
+
+.expense {
+  margin-bottom: 12px;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.expense > div:first-of-type {
+  display: inline;
+  position: relative;
+  bottom: 5px;
+}
+
+.expense > div:last-child {
+  visibility: hidden;
+  display: none;
+  margin-left: 32px;
+}
+
+.expense-name {
+  font-size: large;
+  margin-right: 10px;
+}
+
+.expense-amount {
+  color: #ca2626;
+  margin-right: 10px;
+}
+
+.expense-date {
+  color: #5e5e6a;
+  font-size: smaller;
+}
+
+.expense-expand {
+  margin-right: 6px;
+}
+
+.expense-delete {
+  float: right;
+}
+
+.expense-description {
+  padding: 8px;
+}
